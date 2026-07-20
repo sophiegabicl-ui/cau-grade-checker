@@ -1,0 +1,202 @@
+[
+  {
+    "courseName": "身体运动功能",
+    "grade": "A+"
+  },
+  {
+    "courseName": "计算机系统导论",
+    "grade": "B"
+  },
+  {
+    "courseName": "专业认知",
+    "grade": "A-"
+  },
+  {
+    "courseName": "奇异的仿生学",
+    "grade": "A-"
+  },
+  {
+    "courseName": "20世纪西方音乐",
+    "grade": "A"
+  },
+  {
+    "courseName": "大国三农",
+    "grade": "C+"
+  },
+  {
+    "courseName": "大国三农II",
+    "grade": "B"
+  },
+  {
+    "courseName": "大学生心理健康",
+    "grade": "A-"
+  },
+  {
+    "courseName": "英语读写（中）",
+    "grade": "B-"
+  },
+  {
+    "courseName": "思想道德与法治",
+    "grade": "A-"
+  },
+  {
+    "courseName": "改革开放史",
+    "grade": "A-"
+  },
+  {
+    "courseName": "大学生礼仪修养与实践",
+    "grade": "C"
+  },
+  {
+    "courseName": "画法几何与工程制图",
+    "grade": "B"
+  },
+  {
+    "courseName": "程序设计A",
+    "grade": "A-"
+  },
+  {
+    "courseName": "工程思维：从创意到创新",
+    "grade": "A"
+  },
+  {
+    "courseName": "线性代数",
+    "grade": "A-"
+  },
+  {
+    "courseName": "一元微积分",
+    "grade": "B+"
+  },
+  {
+    "courseName": "现代农业概论",
+    "grade": "B"
+  },
+  {
+    "courseName": "食品防伪与鉴别",
+    "grade": "C+"
+  },
+  {
+    "courseName": "离散数学I",
+    "grade": "A-"
+  },
+  {
+    "courseName": "程序设计II",
+    "grade": "A-"
+  },
+  {
+    "courseName": "军事理论课",
+    "grade": "A+"
+  },
+  {
+    "courseName": "马克思主义基本原理",
+    "grade": "A"
+  },
+  {
+    "courseName": "社会主义发展史",
+    "grade": "A-"
+  },
+  {
+    "courseName": "全国大学英语四级(CET4)",
+    "grade": "470"
+  },
+  {
+    "courseName": "大学英语综合课程（中）",
+    "grade": "EX"
+  },
+  {
+    "courseName": "电路与电子技术基础",
+    "grade": "C+"
+  },
+  {
+    "courseName": "电路与电子技术基础实验",
+    "grade": "A-"
+  },
+  {
+    "courseName": "大学物理A（上）",
+    "grade": "C+"
+  },
+  {
+    "courseName": "多元微积分",
+    "grade": "B-"
+  },
+  {
+    "courseName": "环境评价与管理",
+    "grade": "A-"
+  },
+  {
+    "courseName": "程序设计实训",
+    "grade": "B+"
+  },
+  {
+    "courseName": "创新实践",
+    "grade": "A-"
+  },
+  {
+    "courseName": "数据结构",
+    "grade": "B-"
+  },
+  {
+    "courseName": "数据科学导论",
+    "grade": "A"
+  },
+  {
+    "courseName": "人文与医学",
+    "grade": "C+"
+  },
+  {
+    "courseName": "世界著名博物馆艺术经典",
+    "grade": "C+"
+  },
+  {
+    "courseName": "足球俱乐部5",
+    "grade": "A"
+  },
+  {
+    "courseName": "中国近现代史纲要",
+    "grade": "A"
+  },
+  {
+    "courseName": "大学物理实验A",
+    "grade": "A"
+  },
+  {
+    "courseName": "复变函数与积分变换",
+    "grade": "B-"
+  },
+  {
+    "courseName": "概率论与数理统计",
+    "grade": "B+"
+  },
+  {
+    "courseName": "大学物理A（下）",
+    "grade": "B-"
+  },
+  {
+    "courseName": "经济学原理",
+    "grade": "A-"
+  },
+  {
+    "courseName": "数学建模",
+    "grade": "A-"
+  },
+  {
+    "courseName": "离散数学II",
+    "grade": "B"
+  },
+  {
+    "courseName": "数据库原理与实践",
+    "grade": "A-"
+  },
+  {
+    "courseName": "最优化方法",
+    "grade": "B"
+  },
+  {
+    "courseName": "足球俱乐部6",
+    "grade": "A+"
+  },
+  {
+    "courseName": "计算机组成原理",
+    "grade": "C"
+  }
+]

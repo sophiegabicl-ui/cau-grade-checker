@@ -1,0 +1,20 @@
+{
+  "name": "cau-grade-checker",
+  "version": "1.0.0",
+  "description": "中国农业大学成绩实时查询脚本",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["grade", "cau", "成绩查询"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "puppeteer": "^22.12.0"
+  },
+  "allowScripts": {
+    "puppeteer@22.15.0": true
+  }
+}

@@ -1,0 +1,49 @@
+name: Grade Checker
+
+on:
+  schedule:
+    - cron: '0,30 * * * *'
+    - cron: '15,45 22-5 * * *'
+
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run grade check
+        env:
+          CAU_USERNAME: ${{ secrets.CAU_USERNAME }}
+          CAU_PASSWORD: ${{ secrets.CAU_PASSWORD }}
+          DING_TALK_TOKEN: ${{ secrets.DING_TALK_TOKEN }}
+        run: node run-once.js
+
+      - name: Commit cache.json
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add cache.json
+          git diff --cached --quiet || git commit -m "Update grade cache"
+        continue-on-error: true
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          branch: main
+          github_token: ${{ secrets.GITHUB_TOKEN }}
