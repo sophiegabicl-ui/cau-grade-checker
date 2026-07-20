@@ -3,7 +3,6 @@ name: Grade Checker
 on:
   schedule:
     - cron: '0,30 * * * *'
-    - cron: '15,45 22-5 * * *'
 
   workflow_dispatch:
 
